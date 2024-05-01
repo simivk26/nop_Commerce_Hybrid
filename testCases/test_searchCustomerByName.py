@@ -29,6 +29,7 @@ class Test_005_SearchCustomerByName:
 
         addcus=AddCustomer(self.driver)
         addcus.clickONCustomerMenu()
+        time.sleep(2)
         addcus.clickON_Sub_CustomerMenu()
 
         self.logger.info("***************Searching Customer By Name*********************")
