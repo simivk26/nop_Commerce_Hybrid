@@ -40,6 +40,7 @@ class Test_006_ExportToExcelAllFound:
         sr = SearchCustomer(self.driver)
         self.rows = sr.getNoOfRows()
         num = random_generator(self)
+        time.sleep(2)
         print("random num: ", num)
         print("rows: ", self.rows)
         for i in range(1, self.rows):
