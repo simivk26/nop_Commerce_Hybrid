@@ -19,7 +19,7 @@ class Test_006_ExportToExcelAllFound:
     logger = LogGen.loggen()
 
     @pytest.mark.regression
-    def test_exportToExcelAllFound(self, setup):
+    def test_exportToExcelSelected(self, setup):
         self.logger.info("***************Test_007_Export To Excel Selected*********************")
         self.driver = setup
         self.driver.get(self.baseUrL)
