@@ -30,6 +30,7 @@ class Test_006_ExportToExcelAllFound:
 
         self.addcust = AddCustomer(self.driver)
         self.addcust.clickONCustomerMenu()
+        time.sleep(2)
         self.addcust.clickON_Sub_CustomerMenu()
 
         self.logger.info("***************Starting Export ToExcel All Found*********************")
